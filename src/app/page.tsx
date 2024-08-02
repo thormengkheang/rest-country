@@ -82,6 +82,7 @@ export default function HomePage() {
 
   const handleOnQueryChange = (e: ChangeEvent<HTMLInputElement>) => {
     setQuery(e.target.value);
+    setPage(1);
   };
 
   const handleOnSortingValueChange = (value: SortingValue) => {
